@@ -13,7 +13,7 @@ LOCAL_DIR=/tmp/webotsVolume
 
 docker run --rm --device /dev/dri -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
 -v $LOCAL_DIR:/root  --name webots \
-quay.io/andyyuen/my_webots:latesti
+quay.io/andyyuen/my_webots:latest
 
 
 ## after running this script type `webots` on the terminal inside the container.
